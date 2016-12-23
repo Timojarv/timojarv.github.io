@@ -41,7 +41,7 @@ hr {
 	width: 20%;
 	margin: 2rem auto 2rem 0;
 	border: none;
-	border-bottom: 4px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 4px solid rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -112,7 +112,7 @@ div.works {
 			margin: 0;
 
 			em {
-				margin-left: 4px;
+				display: inline-block;
 				color: rgba(0, 0, 0, 0.2);
 				font-style: normal;
 				font-weight: bold;
@@ -141,7 +141,7 @@ ul.contact {
 
 .container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1080px;
 	padding: 1em;
 	margin: 2rem auto 0;
 }
