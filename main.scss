@@ -84,18 +84,13 @@ nav {
 }
 
 div.works {
-	display: flex;
-	flex-wrap: wrap;
 	&>div {
-		flex: 1 0 400px;
-		max-width: 100%;
-		padding: 1rem;
-		margin: 0 1rem 1rem 0;
-		border-radius: 4px;
-		border: 1px solid rgba(0, 0, 0, 0.1);
-		position: relative;
-		background-size: cover;
-		background-position: center;
+		padding-bottom: 6rem;
+		padding-top: 2rem;
+		
+		&:last-child {
+			padding-bottom: 4rem;
+		}
 
 		hr {
 			margin: 0.8rem 0;
@@ -108,8 +103,9 @@ div.works {
 
 		h3 {
 			font-weight: 400;
-			font-size: 1.2em;
+			font-size: 1.6em;
 			margin: 0;
+			display: inline;
 
 			em {
 				display: inline-block;
@@ -125,6 +121,12 @@ div.works {
 			strong {
 				display: block;
 			}
+		}
+
+		.time {
+			font-size: 1.2em;
+			margin-left: 1em;
+			color: rgba(0, 0, 0, 0.4);
 		}
 	}
 }
