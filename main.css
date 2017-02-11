@@ -82,9 +82,10 @@ div.works > div {
       font-style: normal;
       font-weight: bold; }
   div.works > div .tech {
-    color: rgba(0, 0, 0, 0.6); }
+    color: rgba(0, 0, 0, 0.8); }
     div.works > div .tech strong {
-      display: block; }
+      display: block;
+      color: rgba(0, 0, 0, 0.6); }
   div.works > div .time {
     font-size: 1.2em;
     margin-left: 1em;
