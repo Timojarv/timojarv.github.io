@@ -15,6 +15,21 @@ Design and development by Timo Järventausta (timojarv) // timojarv.com
 	<title>A web designer and developer - timojarv.com</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+	<script>
+	(function(f, a, t, h, o, m){
+		a[h]=a[h]||function(){
+			(a[h].q=a[h].q||[]).push(arguments)
+		};
+		o=f.createElement('script'),
+		m=f.getElementsByTagName('script')[0];
+		o.async=1; o.src=t; o.id='fathom-script';
+		m.parentNode.insertBefore(o,m)
+	})(document, window, '//fathom.timojarv.com/tracker.js', 'fathom');
+	fathom('set', 'siteId', 'WLLYN');
+	fathom('trackPageview');
+	</script>
+	<!-- / Fathom -->
 </head>
 <body>
 <nav>
